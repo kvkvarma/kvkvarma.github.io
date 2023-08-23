@@ -1,0 +1,159 @@
+
+body{
+background-color: rgb(243, 243, 243);
+margin-left:500px;
+margin-top:25px;
+color:white;
+font-family: 'Open Sans', sans-serif;
+}
+.container{
+width:325px;
+border-width:5px;
+background-color:white;
+border:none;
+box-shadow: 1px 1px 20px rgba(0,0,0,0.15);
+}
+.flexbox-1{
+    background-color: pink;
+    display:flex;
+    height:65px;
+    width:325px;
+    background-color:#25D366
+}
+.left-section{
+    display:flex;
+    padding-left:10px;
+    justify-content: center;
+    align-items: center;
+    font-weight:500;
+    color:white;
+}
+.right-section{
+    display:flex;
+    width:95px;
+    justify-content: space-between;
+    flex-shrink:0;
+    align-items: center;
+    margin-right:8px;
+}
+.middle-section{
+    display:flex;
+    flex-shrink: none;
+    flex:1;
+}
+.camera,.search,.dots{
+    height:20px;
+}
+.flexbox-2{
+    height: 27px; 
+    width:325px;
+    background-color:#25D366;
+    display:flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    right:0px;
+}
+.community-img{
+    height:21px;
+    filter: invert(100%);
+}
+.corner-left{
+    padding-top:1px;
+    width:30px;
+    padding-left:4px;
+    align-items: last baseline;
+}
+
+.chat-button,.status-button,.call-button{
+    padding:1px 31.5px;
+    background-color: #25D366;
+    color:white;
+    float: left;
+    border:none;
+    padding-top:6px;
+    padding-bottom:10px;
+    transition:0.15;
+}
+.chat-button:hover,.status-button:hover,.call-button:hover,.corner-button{
+    background-color: rgb(139, 139, 139);
+}
+.flex-content{
+    display:flex;
+}
+.corner-left,.corner-button{
+    background-color:#25D366;
+    border:none;
+}
+.corner-button{
+    padding-top:5px; 
+    padding-bottom:5px;
+    padding:1px 2px; 
+}
+.chat-content{
+    height:60px;
+    background-color:black;
+    margin-top: 7px;
+}
+.dp{
+    height:40px;
+    width:40px;
+    border-radius:20px;
+    object-fit: cover;
+    object-position: center;
+}
+.pic{
+    background-color:white;
+   display:flex;
+   padding-top: 5px;
+   padding-left:8px;
+   height:55px;
+}
+.text{
+    background-color:white;
+    line-height: 5px;
+    display:block;
+    margin-left:10px;
+    flex:1;
+}
+.name{
+    margin-top:6px;
+    font-weight: 600;
+    color: black;
+    font-size:15px;
+}
+.message{
+    color: gray;
+    font-size:12px;
+}
+.time-stamp{
+    display:flex;
+    margin-right:10px;
+    padding-top:15px;
+    font-size:11px;
+    color:black;
+}
+.chat-content:hover{
+    background-color: pink;
+}
+.comment-img{
+height:20px;
+padding:6px 6px;
+padding-top:10px;
+filter: invert(100%);
+}
+.comment-button{
+    margin-right:10px;
+    border-radius:80%;
+    border:none;
+    position:sticky;
+    background-color: #25D366;
+}
+.cam-button{
+    border-radius: 50%;
+    border:none;
+    background-color:#25D366;
+    padding: 6px 7px;
+}
+.cam-button:hover{
+    background-color: rgb(139, 139, 139);
+}
